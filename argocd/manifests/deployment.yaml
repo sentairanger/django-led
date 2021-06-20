@@ -21,7 +21,7 @@ spec:
         app: django-led
     spec:
       containers:
-      - image: linuxrobotgeek/django-led:v1.0.0
+      - image: linuxrobotgeek/django-led:v1.0.1
         imagePullPolicy: IfNotPresent
         name: django-led
         resources:
